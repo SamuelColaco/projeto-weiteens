@@ -1,0 +1,289 @@
+body {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(264deg, #110559, #030226, #F23869);
+    margin: 0;
+
+    grid-template-areas: 
+        'header header header header header header'
+        'nav nav nav nav nav nav'
+        'main main main main main main'
+        'section section section section section section'
+        'footer footer footer footer footer footer';
+        
+}
+
+ main, footer , section{
+  background: linear-gradient(264deg, #110559,#030226,#F23869);
+}
+header {
+    background: linear-gradient(264deg, #110559, #030226, #F23869);
+    grid-area: header;
+    height: 21vh;
+    display:flex;
+    border-radius: 7px 5px;
+    
+    
+}
+hr{
+    background-color: black;
+}
+nav{
+    display: flex;
+    grid-area: nav;
+    height: 6vh;
+    margin-top: -69px;
+    margin-right: 133px;
+    justify-content:center;
+    gap: 169px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+nav > span{
+    text-align: center;
+    
+}
+nav > span:hover{
+    color: black;
+
+    
+
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.video{
+    min-width: 100%;
+    min-height: 100%;
+    transform: rotate(90deg) translateX(-67%);
+
+}
+main {
+    grid-area: main;
+    height: 323vh;
+}
+main > h1{
+    margin-left: 78px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    width: 23%;
+    padding: 10px 0px;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.127);
+}
+#produto {
+    display: inline-block;
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right, #382633, #272A34);
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0;
+    transition: 0.1s ease-in-out;
+    margin-left: 5px;
+}
+#produto:hover{
+    box-shadow: 7px 7px 3px 3px rgba(0, 0, 0, 0.284);
+}
+#produto img {
+    max-width: 100%;
+}
+
+#produto h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#produto p {
+    font-size: 14px;
+}
+
+#produto .preco {
+    font-weight: bold;
+    color: #008000; /* Cor verde para o preço */
+}
+
+#produto .botao-de-compra {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#produto .buy-button:hover {
+    background-color: #45a049; /* Cor de fundo verde mais escura ao passar o mouse */
+}
+footer {
+    grid-area: footer;
+    height: 10vh;
+}
+
+header > img{
+    width: 8%;
+    height: 88%;
+}
+header > input{
+    margin-bottom: 85px;
+    margin-top: 34px;
+    width: 60%; 
+     max-width: 1000px;
+    margin-left: 110px;
+    border-radius: 10px;
+    border: 1px solid #DFE3E9;
+    }
+ header > input:hover{
+   border: 3px solid #dfe3e996 ;
+ }
+header > div > button{
+    margin-top: 70px;
+    background-color:#FFFFFF;
+    color: black;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+header > div > button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+header > div{
+    padding: 10px 20px;
+}
+#perfil{
+    width: 55%;
+    height: 61%;
+    margin-left: 89px;
+    margin-top: 10px;
+}
+#login{
+    display: block;
+   margin-top: 10px;
+   margin-left: 109px;
+}
+
+section{
+    background-color: rgb(65, 12, 114);
+    width: 100vw;
+    height: 58vh;
+    
+}
+#contato{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 64px;
+    margin: 36px;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    border-radius: 16px;
+    background-color: #253659;
+    color: #04BF9D;
+}
+#contato > a{
+    display: block;
+    margin-top: 33px;
+    text-decoration: none;
+
+
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #F27457;
+    border: 0;
+    color: #04BF9D;
+
+}
+#contato > a:hover{
+    background-color: #8d4535;
+}
+#contato > h1{
+    margin-bottom: 10px;
+}
+#contato > input{
+    width: 100%;
+    border-radius: 8px;
+    border: 0;
+    padding: 10px 11px;
+    background-color: #BF665E;
+}
+#contato > p{
+    margin-bottom: 8px;
+    margin-right: 188px;
+}
+#senha-login::placeholder{
+    color: #03A696;
+}
+#csgo{
+    display: inline-block;
+    border: 1px solid black;
+    width: 250px;
+    border-radius: 8px;
+    margin: 10px;
+    margin-left: 29px;
+    color: white;
+    background-color: #382633;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#csgo:hover{
+    background-image: linear-gradient(to right,#382633,#272A34);
+    box-shadow: 7px 7px 7px 7px #2536593f;
+}
+#csgo > img{
+    max-width: 100%;
+    
+}
+#csgo > p > b{
+    margin-left: 18px;
+}
+#centro{
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: -10px;
+}
+#cor{
+    color: #b5b5b5;
+    margin-left: 10px;
+    border-left: 5px solid black;
+    border-color: rgb(235, 75, 75);
+    padding-left: 4px;
+}
+
+
+#csgo > button{
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: rgb(71, 164, 231);
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+#csgo > button:hover{
+    background-color:  rgb(61, 146, 207) ;
+}
+#csgo > button > img{
+    max-width: 100%;
+}
+ion-icon{
+   padding-right: 13px;
+   font-size: 20px;
+}
+
