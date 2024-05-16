@@ -1,3 +1,6 @@
+
+
+
 body {
     display: grid;
     width: 100vw;
@@ -147,7 +150,7 @@ header > input{
  header > input:hover{
    border: 3px solid #dfe3e996 ;
  }
-header > div > button{
+header > div > a > button{
     margin-top: 70px;
     background-color:#FFFFFF;
     color: black;
@@ -156,7 +159,7 @@ header > div > button{
     padding: 8px 16px;
     cursor: pointer;
 }
-header > div > button:hover{
+header > div > a > button:hover{
     background-color: black;
     color: white;
     border: 1px solid white;
@@ -227,6 +230,9 @@ section{
 }
 #senha-login::placeholder{
     color: #03A696;
+}
+a{
+    text-decoration: none;
 }
 #csgo{
     display: inline-block;
