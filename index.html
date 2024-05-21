@@ -3,68 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weiteens</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/logo-sem-fundo.png" type="image/x-icon">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
-
 <body>
+    <header>
+        <div class="logo-titolo">
+            <img alt="Logo weiteens" title="logo weiteens" src="imagens/logo-sem-fundo.png">
+        </div>
+        <div id="pesquisa-nav">
+        <div class="pesquisa-barra">
+            <input type="text" id="busca" name="busca" placeholder="Buscar produto">
+        </div>
+        <nav id="menunav">
+            <ul class="menu">
+                <li><a href="#header">Inicio</a></li>
+                <li><a href="#jogos">Jogos Mais Populares</a></li>
+                <li><a href="#mercado">Itens Mais vendidos</a></li>
+                <li><a href="#Patreon">Patreon</a></li>
+                <li><a href="#algo">algo</a></li>
+                <li><a href="#Rodape">final da pagina</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="user-info">
+            <img src="imagens/dio.jpg" alt="Foto de Perfil">
+            <button class="login-button">Login</button>
+        </div>
 
-<header>
-    <img src="imagens/9701fa9a-1152-4145-8510-de38affd2bf2-removebg-preview.png" alt="">
-    <input type="text" name="text" id="text" placeholder="Buscar produto">
-  
-    <div id="kperfil-login">
-        <img id="perfil" src="imagens/Avatar.png" alt="">
-        <button id="login" >login</button>
-    </div>
-</header>
-
-<nav>
-    <span>Produtos</span>
-    <span>Mais Populares</span>
-    <span>Cadastro</span>
-    <span>Rodape</span>
-</nav>
-
+    </header>
 <main>
-    <h1>Jogos mais populares</h1>
-        <div  id="produto">
+     <p>
+        <h1>Jogos mais populares</h1>
+    </p><!--ganbiarra-->
+    <div id="produtosprincipal">
+        <div  class="produto">
             <img src="imagens/pngegg.webp" alt="Team Fortress 2">
             <h2>Team Fortress 2</h2>
             <p>Descrição do produto.</p>
-            <span class="preco">Preço</span>
             <button class="botao-de-compra">Comprar</button>
         </div>
-        <div id="produto">
+        <div class="produto">
             <img src="imagens/imagecsgoek.webp" alt="Counter-Strike  ">
             <h2> Counter-Strike</h2>
             <p>Descrição do produto.</p>
-            <span class="preco">Preço</span>
             <button class="botao-de-compra">Comprar</button>
         </div>
-        <div id="produto">
+        <div class="produto">
             <img src="imagens/YfwPDG4vtH9Lo9cAAAAASUVORK5CYII-removebg-preview.png" alt="Dota 2">
             <h2>Dota 2</h2>
             <p>Descrição do produto.</p>
-            <span class="preco">Preço</span>
-            <button class="botao-de-compra">Comprar</button>
+                <button class="botao-de-compra">Comprar</button>
         </div>
-        <div id="produto">
+        <div class="produto">
             <img src="imagens/iXyUOZpAfq34g4CGsgUb9VEc.webp" alt="Rust">
             <h2>Rust</h2>
             <p>Descrição do produto.</p>
-            <span class="preco">Preço</span>
             <button class="botao-de-compra">Comprar</button>
         </div>
-        <div id="produto">
-            <img src="imagens/9701fa9a-1152-4145-8510-de38affd2bf2-removebg-preview.png" alt="A definir">
+        <div class="produto">
+            <img src="imagens/logo-sem-fundo.png" alt="A definir">
             <h2> A definir</h2>
             <p>Descrição do produto.</p>
-            <span class="preco">Preço</span>
             <button class="botao-de-compra">Comprar</button>
         </div>
+        <div class="produto">
+            <img src="imagens/imagehn-pubg-battlegrounds.png" alt="pbg">
+            <h2> A definir</h2>
+            <p>Descrição do produto.</p>
+            <button class="botao-de-compra">Comprar</button>
+        </div>
+    </div>
     <h1> CS2 Items</h1>
         <div id="csgo">
             <p><b>AWP | Fade</b></p>
@@ -141,22 +153,14 @@
         <div id="csgo">
             <p><b>A | Definir </b></p>
             <p id="cor">A definir</p>
-            <img src="imagens/9701fa9a-1152-4145-8510-de38affd2bf2-removebg-preview.png" alt="Simbolo da empresa weiteens">
+            <img src="imagens/logo-sem-fundo.png" alt="Simbolo da empresa weiteens">
             <p id="centro"><strong>R$5000,00</strong></p>
             <button><ion-icon name="cart-outline"></ion-icon>Adicionar ao carrinho</button>
         </div>
         <div id="csgo">
             <p><b>A | Definir </b></p>
             <p id="cor">A definir</p>
-            <img src="imagens/9701fa9a-1152-4145-8510-de38affd2bf2-removebg-preview.png" alt="Simbolo da empresa weiteens">
-            <p id="centro"><strong>R$5000,00</strong></p>
-            <button><ion-icon name="cart-outline"></ion-icon>Adicionar ao carrinho</button>
-        </div>
-
-        <div id="csgo">
-            <p><b>A | Definir </b></p>
-            <p id="cor">A definir</p>
-            <img src="imagens/9701fa9a-1152-4145-8510-de38affd2bf2-removebg-preview.png" alt="Simbolo da empresa weiteens">
+            <img src="imagens/logo-sem-fundo.png" alt="Simbolo da empresa weiteens">
             <p id="centro"><strong>R$5000,00</strong></p>
             <button><ion-icon name="cart-outline"></ion-icon>Adicionar ao carrinho</button>
         </div>
@@ -164,7 +168,7 @@
         <div id="csgo">
             <p><b>A | Definir </b></p>
             <p id="cor">A definir</p>
-            <img src="imagens/9701fa9a-1152-4145-8510-de38affd2bf2-removebg-preview.png" alt="Simbolo da empresa weiteens">
+            <img src="imagens/logo-sem-fundo.png" alt="Simbolo da empresa weiteens">
             <p id="centro"><strong>R$5000,00</strong></p>
             <button><ion-icon name="cart-outline"></ion-icon>Adicionar ao carrinho</button>
         </div>
@@ -172,23 +176,19 @@
         <div id="csgo">
             <p><b>A | Definir </b></p>
             <p id="cor">A definir</p>
-            <img src="imagens/9701fa9a-1152-4145-8510-de38affd2bf2-removebg-preview.png" alt="Simbolo da empresa weiteens">
+            <img src="imagens/logo-sem-fundo.png" alt="Simbolo da empresa weiteens">
+            <p id="centro"><strong>R$5000,00</strong></p>
+            <button><ion-icon name="cart-outline"></ion-icon>Adicionar ao carrinho</button>
+        </div>
+
+        <div id="csgo">
+            <p><b>A | Definir </b></p>
+            <p id="cor">A definir</p>
+            <img src="imagens/logo-sem-fundo.png" alt="Simbolo da empresa weiteens">
             <p id="centro"><strong>R$5000,00</strong></p>
             <button><ion-icon name="cart-outline"></ion-icon>Adicionar ao carrinho</button>
         </div>
 </main>
-<section>
-    <div id="contato">
-        <h1>Fórmulario de contato</h1>
-        <p>Usuário</p>
-        <input type="text"  id="senha-login" placeholder="Digite seu usuário">
-        <p>Senha</p>
-        <input type="password" name="" id="senha-login" placeholder="Digite sua senha">
-        <a href="#">Contate-me</a>
-    </div>
-</section>
 <footer>rodapek</footer>
-    
 </body>
-
 </html>
