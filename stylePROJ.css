@@ -45,12 +45,11 @@ body {
 .container input {
     background-color: #0302261f;
     margin: 10px;
-    padding: 5px;
+    width: 300px;
+    padding: 5px; 
     border-radius: 8px;
     border: 3px solid rgba(201, 200, 200, 0.781);
     outline: none;
-    color: #ffffe0;
-    width: 300px;
 }
 .container input:hover{
     border: 2px solid rgba(211, 205, 205, 0.726);
