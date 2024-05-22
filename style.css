@@ -7,15 +7,15 @@ body {
     height: 100vh;
     background: linear-gradient(264deg, #110559, #030226, #F23869);
     margin: 0;
-
+ 
+ 
     grid-template-areas: 
         'header header header header header header'
         'nav nav nav nav nav nav'
         'main main main main main main'
         'section section section section section section'
         'footer footer footer footer footer footer';
-        
-}
+}   
 
  main, footer , section{
   background: linear-gradient(264deg, #110559,#030226,#F23869);
