@@ -1,0 +1,117 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+   display: flex;
+   height: 100vh;
+}
+ aside{
+    background-color: #FFFFFF;
+}
+section{
+    /*width: 735px;*/
+    width: 1260px;
+    background-image: linear-gradient(to right,#382633,#272A34);
+}
+section > img{
+    display: block;
+    max-width: 100%;
+    width: 82%;
+    margin: auto;
+    margin-top: 300px;
+}
+aside{
+    width: 1300px;
+    /*width: 753px;*/
+}
+/* Nome da div do espaco de comprar */
+#barra-de-compras{
+    margin-top: 351px;
+}
+
+aside >  div > h1{
+    margin-left: 31px;
+    margin-bottom: 23px;
+    font-size: 43px;
+}
+aside > div > a{
+    margin-left: 31px;
+    margin-bottom: 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* id do link para levar ao site principal */
+#espaco{
+    display: inline-block;
+    margin-left: 205px;
+    color: #000000;
+    font-size: 30px;
+}
+#espaco:hover{
+    text-decoration: underline;
+}
+/* id do botao de comprar */
+#comprar{
+    display: inline-block;
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 20px 134px;
+    background-color:#387dd1d9 ;
+    border: 0;
+    color: #F5F5F5;
+}
+#comprar:hover{
+    border: 1px solid #387dd1d9;
+    background-color: #F5F5F5;
+    color: #387dd1d9;
+}
+aside > div > p > b{
+    font-size: 26px;
+    margin-left: 17px;
+    font-size: 40px;
+}
+/* id do plorem feito */
+#lorem{
+    margin-top: 48px;
+    margin-bottom: 38px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+/* id da div dos icones e spans */
+#vendidos{
+    display: inline-block;
+    background-color: #F7F7F7;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-left: 40px;
+    margin-bottom: 31px;
+}
+#vendidos > span > b{
+    font-size: 30px;
+}
+ion-icon{
+    font-size: 30px;
+}
+.formas-pagamentos{
+ margin-left: 30px;
+
+}
+.formas-pagamentos h2{
+    font-size: 30px;
+}
+.formas-pagamentos img{
+    cursor: pointer;
+}
+.formas-pagamentos img:hover{
+    background-color: rgb(159, 148, 148);
+    border-radius: 50%;
+    transition: ease 0.1s;
+}
