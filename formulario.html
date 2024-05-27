@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+<!-- Aqui é a parte principal da pagina-->
+<main class="pagina">
+    <header>
+        <h1>Weiteens: do virtual a realidade</h1>
+        <p>Fale conosco!</p>
+    </header>
+
+    <form id="enviar">
+        <div class="campos">
+                <h2>Informações Pessoais</h2>
+                <label for="nome">Nome <span>(no máximo 255 caracteres)</span>
+                </label>
+                <input type="text" name="nome" id="nome" required>
+                <label for="e-mail">Email <span>(digite um endereço válido)</span></label>
+                <input type="email" name="e-mail" id="e-mail" required>
+                <label for="selecione">Selecione seu problema</label>
+                 <select name="seleto" id="selecione">
+                    <option value="fcompra">Falha na compra</option>
+                    <option value="inexistente">Página inexistente</option>
+                    <option value="errocada">Erro no cadastro</option>
+                 </select>
+        </div>
+        
+    </form>
+    <!--Para enviar o formulário falta linka-lo ao documento central no caso a pagina central 
+        e para isso só botar o action e um "id" no form. Depois bote o id do form no input desse jeito.
+        form ="id"
+    -->
+    <footer><input type="submit" value="ENVIAR"
+        form="enviar"></footer>
+</main>
+
+
+
+
+
+</body>
+</html>
