@@ -446,12 +446,12 @@ section {
     box-shadow: 7px 7px 7px 7px #2536593f;
 }
 
-#itens>img {
+#itens > img {
     max-width: 100%;
 
 }
 
-#itens>p>b {
+#itens> p > b {
     margin-left: 18px;
 }
 
@@ -469,8 +469,10 @@ section {
     padding-left: 4px;
 }
 
-
-#itens>button {
+#itens a{
+    text-decoration: none;
+}
+#itens> a > button {
     border-radius: 4px;
     padding: 10px 20px;
     background-color: rgb(71, 164, 231);
@@ -481,14 +483,14 @@ section {
     font-size: 16px;
     display: flex;
     flex-direction: row;
-    align-items: center
+    align-items: center;
 }
 
-#itens>button:hover {
+#itens> a > button:hover {
     background-color: rgb(61, 146, 207);
 }
 
-#itens>button>img {
+#itens> a > button > img {
     max-width: 100%;
 }
 
